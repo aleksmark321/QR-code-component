@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  padding: 15px;
+  width: 280px;
+  height: 440px;
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 20px rgba(31, 50, 81, 0.2);
+}
+.card .qr-text {
+  display: block;
+}
+.card .qr-code img {
+  width: 100%;
+  border-radius: 10px;
+}
+.card h1 {
+  font-size: 20px;
+  margin: 15px 9px;
+  font-weight: 800;
+  color: hsl(218, 44%, 22%);
+}
+.card p {
+  margin: 0 10px;
+  font-size: 14px;
+  color: hsl(220, 15%, 55%);
+}
+
+footer {
+  position: absolute;
+  bottom: 5%;
+}
+
+.attribution {
+  margin: 0 10px;
+  text-align: center;
+  color: hsl(218, 44%, 22%);
+}
+.attribution a {
+  color: rgb(54, 133, 255);
+  text-decoration: none;
+  transition: color 0.5s;
+}
+.attribution a:hover {
+  color: rgb(0, 61, 153);
+}/*# sourceMappingURL=main.css.map */
